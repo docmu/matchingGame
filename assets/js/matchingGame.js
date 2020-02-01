@@ -7,7 +7,7 @@ init();
 
 function init(){
     $(".square").addClass("no-show");
-    // $('img').hide();
+    $('img').hide();
     reset();
 }
 
