@@ -1,17 +1,18 @@
-  body{
-      /* background-color: lightgray; */
+  body, html{
+      background-color: white;
       font-family: "Montserrat", "Avenir";
   }
 
   h1{
+    font-size: 50px;
     text-align: center;
-    color: white;
-    background: #232323;
+    color: #526C8E;
+    /* background: white; */
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.1;
-    padding: 20px 0;
+    padding: 0 0;
 
   }
   img{
@@ -29,7 +30,7 @@
     margin: 10px;
     height: 150px;
     width: 150px;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #646464; 
     /* transition: background 0.6s;
     -webkit-transition: background 0.6s;
     -moz-transition: background 0.6s; */
@@ -37,7 +38,7 @@
   }
 
   .no-show{
-    background: #00d1b2;
+    background: #A4A6D8;
     /* background-image: url("https://img.icons8.com/plasticine/100/000000/question-mark.png"); */
   }
 
@@ -48,19 +49,15 @@
 
   /* takes up 20% of container therefore pushing buttons away */
   #message{
-    display: inline-block;
-    width: 20%;
+    /* display: inline-block; */
+    /* width: 20%; */
   }
   #stripe{
     background: white;
     text-align:center;
     height: 30px;
   }
-  .selected{
-    color: white;
-    background: steelblue;
-    
-  }
+ 
 
   button{
     border: none;
@@ -69,7 +66,7 @@
     /* btn takes up 100% height of its container */
     height: 100%; 
     font-weight: 700;
-    color: steelblue;
+    color: #526C8E;
     letter-spacing: 1px;
     font-size: inherit;
     /* when any property changes(i.e. color,background in this case) fade effect 0.3s*/
@@ -82,7 +79,7 @@
   }
   button:hover{
     color: white;
-    background: steelblue;
+    background: #B7D3F2;
     
   }
 
