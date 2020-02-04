@@ -1,7 +1,6 @@
 var temp;
 var clickedCard;
 var otherClickedCard;
-// var offElements = [];
 
 init();
 
@@ -69,8 +68,6 @@ function checkMatch(card1, card2){
 function isMatch(card1, card2){
     $(card1).off("click");
     $(card2).off("click");
-    // offElements.push(card1);
-    // offElements.push(card2);
 }
 
 //handle events for cards that do not match
@@ -82,5 +79,4 @@ function notMatch(card1, card2){
         $(card2).addClass("no-show");
     }, 500);
 }
-
 

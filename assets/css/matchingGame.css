@@ -31,15 +31,14 @@
     height: 150px;
     width: 150px;
     box-shadow: 5px 10px 8px #646464; 
-    /* transition: background 0.6s;
-    -webkit-transition: background 0.6s;
-    -moz-transition: background 0.6s; */
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 
   }
 
   .no-show{
     background: #A4A6D8;
-    /* background-image: url("https://img.icons8.com/plasticine/100/000000/question-mark.png"); */
   }
 
   .square h4{
@@ -47,15 +46,18 @@
     color: white;
 }
 
-  /* takes up 20% of container therefore pushing buttons away */
-  #message{
-    /* display: inline-block; */
-    /* width: 20%; */
-  }
   #stripe{
-    background: white;
     text-align:center;
     height: 30px;
+  }
+
+  .time{
+    font-weight: 700;
+    color: #526C8E;
+    letter-spacing: 1px;
+    font-size: inherit;
+    margin: 0 10px;
+
   }
  
 
@@ -69,13 +71,15 @@
     color: #526C8E;
     letter-spacing: 1px;
     font-size: inherit;
+    margin: 0 10px;
+    /* get rid of blue border when button clicked */
+    outline: none; 
     /* when any property changes(i.e. color,background in this case) fade effect 0.3s*/
     transition: all 0.3s;
     /* for xtra browser support */
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    /* get rid of blue border when button clicked */
-    outline: none; 
+    
   }
   button:hover{
     color: white;
